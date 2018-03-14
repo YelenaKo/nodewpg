@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create User</title>
+</head>
+<body>
+    <h1>Create User</h1>
+    <hr>
+    <form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+            <legend>User Form:</legend>
+                <label for="username">Name:</label><br>
+                <input type="text" name="username" placeholder="username" size="30" maxlength="12"><br><br>
+                <label for="birthday">Birthday:</label><br>
+                <input type="date" name="birthday" /><br><br>
+                <label for="email" >Email:</label><br>
+                <input type="email" name="email" placeholder="email" /><br><br>
+                <label for="sitiopersonal" >Site URL:</label><br>
+                <input type="url" name="sitiopersonal" placeholder="site URL" /><br><br>
+                <label for="password">Password:</label><br>
+                <input type="password" name="password" placeholder="password" size="30" maxlength="8">
+        </fieldset>
+        <h2>Select your favourite superheroe</h2>
+        <label for="superheros">Superheros:</label><br>
+        <input type="radio" name="superheros" value="superman"> Superman<br>
+        <input type="radio" name="superheros" value="batman" checked="checked"> Batman<br>
+        <input type="radio" name="superheros" value="wonderWoman"> Wonder Woman<br>
+        <input type="radio" name="superheros" value="flash"> Flash<br>
+        <input type="radio" name="superheros" value="thorHulk"> Thor & Hulk<br>
+        <h2> Select your favourite video game</h2>
+        <label for="videogames">Videogames:</label><br>
+        <input type="checkbox" name="videogames" value="fifa" checked="checked" > Fifa<br>
+        <input type="checkbox" name="videogames" value="nhl" > NHL<br>
+        <input type="checkbox" name="videogames" value="residenEvil"> Residen Evil<br>
+        <input type="checkbox" name="videogames" value="uncharted" checked> Uncharted<br>
+        <br>
+        <input type="hidden" name="userid" value="2300" >
+        <button value="Login" name="login">
+            <img src="img/register_button.png" alt="Login" width="120" height="40" />
+        </button>   
+    </form>
+    <hr>
+    <form action="https://www.google.ca/search" method="get" enctype="application/x-www-form-urlencoded">
+        <label for="q">Search in Google:</label><br>
+        <input type="search" name="q" />
+        <button value="search" name="search">Search:</button>   
+    </form><br><br>
+</body>
+</html> 

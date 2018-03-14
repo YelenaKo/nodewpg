@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Germania One' rel='stylesheet'>
+    <title>Hogwarts</title>
+    <style>
+        body {
+            font-family: 'Tangerine';
+            font-size: 32px;
+            background: rgba(223, 174, 104, 1);
+        }
+        h1{    
+            font-family: 'Germania One';
+            background-color: #000000;
+            color: #d3820b9e;
+            text-shadow: 2px 2px 3px rgb(255, 255, 255);
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            background-clip: text;
+        }
+        .main {
+            width: 45%;
+            margin: 50px auto;
+            padding: 1% 7%;
+            background: #fff2b2;
+        }
+        hr {
+            border: rgb(163, 0, 0) 1px dotted;
+        }
+        ol.asterix  {
+           list-style:none;
+           margin-left: -15px;
+        }
+        li.asterix:before {
+            content: "*" ;
+        }
+        .founders{
+            color:red;
+        }
+        dt{
+            margin: 10px 20px 1px;
+            text-decoration-line: underline;
+            text-decoration-style: wavy;
+            text-decoration-color: rgb(250, 206, 109);
+        }
+        dd {
+            font-style: italic;
+        }
+        @media (max-width: 600px){
+        .main {
+            width: 76%;}
+        }
+    </style>
+</head>
+<body>
+  <div class="main">
+    <h1>Hogwarts</h1>
+    <hr>
+    <h2>Houses</h2>
+    <ul>   
+        <li><strong>Gryffindor</strong></li>
+        <li>Hufflepuff</li>
+        <li>Ravenclaw</li>
+        <li>Slytherin</li>
+    </ul>
+    <h2>Notable teachers and staff members</h2>
+    <ol>
+        <li>Argus Filch</li>
+        <li>Filius Flitwick</li>
+        <li>Gilderoy Lockhart</li>
+        <li>Minerva McGonagall</li>
+        <li>Poppy Pomfrey</li>
+        <li>Quirinus Quirrell</li>
+        <li>Horace Slughorn</li>
+        <li>Pomona Sprout</li>
+        <li>Sybill Trelawney</li>
+    </ol>
+    <ol class="asterix">
+       <li class="asterix">Hogwarts ghosts</li>
+       <li>
+            <ol>
+                <li>The Bloody Baron</li>
+                <li>The Fat Friar</li>
+                <li>The Grey Lady</li>
+                <li>Nearly Headless Nick</li>
+            </ol>
+        </li>
+        <li class="asterix">Hogwarts founders</li>
+        <li> 
+            <ol>
+                <li>Godric <span class="founders">Gryffindor</span></li>
+                <li>Helga <span class="founders">Hufflepuff</span></li>
+                <li>Rowena <span class="founders">Ravenclaw</span></li>
+                <li>Salazar <span class="founders">Slytherin</span></li>
+            </ol>
+        </li>    
+   </ol>
+   <hr>
+   <h2>List of spells</h2>
+   <dl>
+        <dt>Aberto</dt>
+        <dd> A spell presumably used to open objects such as doors or windows.</dd>
+        <dt>Accio</dt>
+        <dd>This charm summons an object to the caster, potentially over a significant distance.</dd>
+        <dt>Expecto Patronum</dt>
+        <dd>Evokes a partially-tangible positive energy force known as a Patronus</dd>
+        <dt>Sectumsempra</dt>
+        <dd>A dark spell that creates large, blood-oozing gashes on the subject as if said subject had been "slashed by a sword".</dd>
+        <dt>Immobulus</dt>
+        <dd>Renders living targets immobile.</dd>
+        <dt>Partis Temporus</dt>
+        <dd>Creates a temporary gap through protective magical barriers.</dd>
+        <dt>Locomotor</dt>
+        <dd>The spell causes the named object to rise in the air and move around at the will of the caster.</dd>
+    </dl>
+  </div><!--end main-->
+</body>
+</html>
+
+
+
