@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Contact me</title>
+</head>
+<body id="page-03">
+    <header>
+        <div class="left-header">
+                    
+        </div>
+        <div class="right-header">
+            <nav>
+                <h1>MY PERSONAL WEBSITE</h1>
+                <hr>
+                <h2>Contact me</h2>
+                <ul class="main-nav">
+                    <li><a href="index.html" >HOME</a> </li>
+                    <li><a href="html/index.html">HTML</a> </li>
+                    <li><a href="css/index.html">CSS</a> </li>
+                    <li><a href="#">JavaScript</a> </li>
+                    <li><a href="#">Node.js</a></li>
+                    <li><a href="additional.html">Additional page</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="contact-me.html" class="active">Contact me</a></li>
+                </ul>
+            </nav>            
+        </div>
+    
+    </header>
+    
+    <section class="main-content">
+      <div class="before-exc-blocks"> 
+          <img src="img/mountain.jpg" alt="Contact me" title="Contact me">
+          <h3>Heading H3 </h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat euismod nunc et ullamcorper. Aenean malesuada, dui ut blandit malesuada, ligula ex ultricies dui, ac aliquam sapien est quis orci. Phasellus purus urna, varius a leo vel, rhoncus lobortis magna. Duis rutrum varius augue, ut lacinia tellus imperdiet sed. Mauris vulputate, augue id condimentum fringilla, justo purus rutrum magna, id tristique erat turpis ac erat. Nam mattis turpis lorem, a fermentum orci molestie eu. Vestibulum nec volutpat nulla. Nunc pulvinar arcu aliquet turpis molestie imperdiet. Pellentesque enim erat, varius a urna sollicitudin, blandit condimentum leo. Pellentesque nec gravida dui, aliquet tincidunt massa.</p>
+      </div> <!--end before-exc-blocks-->    
+      <div class="exc-blocks">  
+        <div class="left-content" >
+            <form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded">
+                <fieldset>
+                    <legend>Send me a message:</legend>
+                        <label for="username">Please enter your name <span style="color:red">*</span></label><br>
+                        <input type="text" name="username" placeholder="name" size="30" maxlength="12" required><br><br>
+                        <label for="birthday" >Please enter your birthday (optionaly):</label><br>
+                        <input type="date" name="birthday" ><br><br>
+                        <label for="email" size="30" required>Please enter your email <span style="color:red">*</span></label><br>
+                        <input type="email" name="email" placeholder="email" size="30"><br><br>
+                        <label for="site-personal" size="30">Please enter your site URL (optionaly):</label><br>
+                        <input type="url" name="site-personal" placeholder="site URL" size="30"><br><br>
+                        <label for="message">Please enter your message  <span style="color:red">*</span></label><br>
+                        <textarea rows="3" cols="32" name="message" placeholder="message" ></textarea>
+                       
+             
+                    <h2>Is it sunny today?</h2>
+                    <label for="sunny-today"></label><br>
+                    <input type="radio" name="sunny-today" value="yes" checked=""> yes <br>
+                    <input type="radio" name="sunny-today" value="no" > no <br>
+                
+                    <h2> Select your favorite season</h2>
+                    <input type="checkbox" name="seasons" value="spring" checked="checked"> spring<br>
+                    <input type="checkbox" name="seasons" value="summer"> summer<br>
+                    <input type="checkbox" name="seasons" value="fall"> fall<br>
+                    <input type="checkbox" name="seasons" value="winter" > winter<br>
+                    <br>
+                    <input type="hidden" name="userid" value="2300">
+                    <button class="btn" value="submit" name="submit">Submit
+                    </button>   
+               </fieldset> 
+            </form>
+        </div> <!-- end left-content --> 
+        <div class="right-content">
+            <h3>Contact me</h3>
+            <a href="mailto:email@email.com">Email me, click <span style="color:blue; text-decoration:underline;">here!</span></a>    
+        </div><!-- end right-content --> 
+
+       
+      </div> <!--end exc block-->    
+          
+
+    </section>
+
+    <footer>
+        <ul class="footer-nav">
+            <li><a href="index.html" >HOME</a> </li>
+            <li><a href="html/index.html">HTML</a> </li>
+            <li><a href="css/index.html">CSS</a> </li>
+            <li><a href="#">JavaScript</a> </li>
+            <li><a href="#">Node.js</a></li>
+            <li><a href="additional.html">Additional page</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="contact-me.html">Contact me</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
