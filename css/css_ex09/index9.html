@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSS Padding, Margin, Width &amp; Height</title>
+    <style type="text/css">
+    body{                           /* Select the body element and apply the following styles:*/
+        border-style: solid;
+        border-color: black;      /* Add a black 1px solid border*/
+        padding: 0px;               /*      Update Padding must be 0px for all sides*/
+        margin: 0px;                /*      Update Margin must be 0px for all sides*/
+    }
+    div{                            /* Select all div elements and apply the following styles:*/
+        border: 1px solid red;    /*      Add a red 1px solid border*/
+        padding: 10px;              /*      Padding must be 10px for all sides*/
+        margin: 10px;               /*      Margin must be 10px for all sides*/
+    }
+    span{                           /* Select all span elements and apply the following styles:  */
+        border: 1px solid orange; /*      Add a orange 1px solid border*/
+        padding: 10px;              /*      Padding must be 10px for all sides*/
+        margin: 10px;               /*      Margin must be 10px for all sides*/
+    }
+    .box{                           /* Select all elements with the box class and apply the following styles:*/
+        width: 300px;               /*      Set the width property to 300px*/
+        height: auto;               /*      Set the height property to 100px*/
+    }
+    .min{                           /* Select all elements with the min class and apply the following styles: */
+        width: 100px;               /*      Set the width property to 100px*/
+        height: auto;               /*      Set the height property to 10px*/
+    }
+    .max{                           /*     Select all elements with the max class and apply the following styles: */
+        width: 200px;               /*      Set the width property to 200px*/
+        height: auto;               /*      Set the height property to 40px*/
+    }
+    .center{                        /* Select all elements with the center class and apply the following styles:*/
+        width: 300px;               /*      Set the width property to 300px*/
+        margin: auto;               /*      Set margin value to auto for all sides*/
+    }
+    .inline-center{                 /* Select all elements with the inline-center class and apply the following styles:*/
+        text-align: center;         /*      Set the text-align value to center*/
+    }
+    /* 
+    At this point you should be able to see the difference between inline and block elements
+        Also you can see how horizontal aligment work for block and inline elements
+    Take your time to review the code, try each style on it own
+    */    
+    </style>    
+  </head>
+  <body>
+    <div>Sed dapibus magna semper sollicitudin mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut semper mi magna, vitae blandit nibh suscipit sed. Cras ullamcorper erat ac massa fermentum semper. Pellentesque euismod sit amet ante sed maximus. Vestibulum ut faucibus diam, quis pellentesque erat. Fusce sit amet ligula a arcu rutrum efficitur.</div>
+    <div>Sed dapibus magna semper sollicitudin mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut semper mi magna, vitae blandit nibh suscipit sed. Cras ullamcorper erat ac massa fermentum semper. Pellentesque euismod sit amet ante sed maximus. Vestibulum ut faucibus diam, quis pellentesque erat. Fusce sit amet ligula a arcu rutrum efficitur.</div>
+    <p><span>dapibus</span> semper sollicitudin <span>mollis</span></p>
+    <div class="box">BOX Sed dapibus magna semper sollicitudin mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut semper mi magna, vitae blandit nibh suscipit sed. Cras ullamcorper erat ac massa fermentum semper. Pellentesque euismod sit amet ante sed maximus. Vestibulum ut faucibus diam, quis pellentesque erat. Fusce sit amet ligula a arcu rutrum efficitur.</div>
+    <div class="min">MIN Sed dapibus magna semper sollicitudin mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut semper mi magna, vitae blandit nibh suscipit sed. Cras ullamcorper erat ac massa fermentum semper. Pellentesque euismod sit amet ante sed maximus. Vestibulum ut faucibus diam, quis pellentesque erat. Fusce sit amet ligula a arcu rutrum efficitur.</div>
+    <div class="max">MAX Sed dapibus magna semper sollicitudin mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut semper mi magna, vitae blandit nibh suscipit sed. Cras ullamcorper erat ac massa fermentum semper. Pellentesque euismod sit amet ante sed maximus. Vestibulum ut faucibus diam, quis pellentesque erat. Fusce sit amet ligula a arcu rutrum efficitur.</div>
+    <div class="center">CENTER Sed dapibus magna semper sollicitudin mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut semper mi magna, vitae blandit nibh suscipit sed. Cras ullamcorper erat ac massa fermentum semper. Pellentesque euismod sit amet ante sed maximus. Vestibulum ut faucibus diam, quis pellentesque erat. Fusce sit amet ligula a arcu rutrum efficitur.</div>
+    <p class="inline-center"><span> INLINE-CENTER Sed dapibus magna semper sollicitudin</span></p>
+  </body>
+</html>
