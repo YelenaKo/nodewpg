@@ -83,7 +83,9 @@ section.main-content {
     width: 70%;
     margin-bottom: 70px;
 }
-
+#page-01 section.main-content img {
+    box-shadow: none;	
+}
 section.main-content img {
     width: 79%;
     margin: 5% 10%;
@@ -91,6 +93,7 @@ section.main-content img {
     border: 1px #ffffff solid;
     box-shadow: 0px 7px 18px #a5a5a5;	
 }
+
 .main-content .before-exc-blocks img {
     width: 100%;
     margin: 0;
