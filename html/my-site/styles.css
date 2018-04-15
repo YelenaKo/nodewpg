@@ -305,6 +305,26 @@ section.main-content {
 .exc-blocks figure {
     width: 30%;
 }
+#page-04 .left-content {
+    width: 100%;
+}
+#page-04 .right-content {
+    width: 100%;
+}
+#page-06 iframe {
+    width: 100%;
+}
+#page-06 .left-content {
+    width: 100%;
+    height: 163px;
+}
+#page-03 .left-content {
+    width: 100%;
+}
+#page-03 .right-content {
+    width: 100%;
+    margin-bottom: 37px;
+}	
 footer {
     position: static;
 }
