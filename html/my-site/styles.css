@@ -101,7 +101,7 @@ section.main-content img {
 }
 .exc-blocks {
     display: flex;
-    justify-content: space-between;
+    //justify-content: space-between;
     flex-wrap: wrap;
     width: 94%;
     margin: 0;
