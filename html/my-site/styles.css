@@ -105,12 +105,12 @@ section.main-content img {
     position: relative;
     text-align: center;
 }
-
+/* start effect */
 .exc-blocks figure {
     float: left;
     width: 18%;
     margin: 1%;
-    position: relative; // start effect
+    position: relative;
 }
 
 .exc-blocks figure::before {
