@@ -110,7 +110,8 @@ section.main-content img {
     float: left;
     width: 18%;
     margin: 1%;
-    position: relative;
+    position: relative; /* start efect */
+    overflow: hidden;	
 }
 
 .exc-blocks figure::before {
