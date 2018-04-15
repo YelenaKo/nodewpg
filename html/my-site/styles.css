@@ -310,6 +310,7 @@ footer {
 }
 ul.footer-nav {
     padding: 1%;
+    margin: 0;		
 }
 }
 
