@@ -106,9 +106,9 @@ section.main-content img {
     display: flex;
     //justify-content: space-between;
     flex-wrap: wrap;
-    width: 94%;
+    width: 100%;
     margin: 0;
-    padding: 0 3%;
+    padding: 0 ;
     position: relative;
     text-align: center;
 }
