@@ -283,6 +283,31 @@ footer{
     padding: 3px 10px;
     text-decoration: none;
 }
+@media only screen and (max-width: 600px) {
+
+.right-header {
+    position: relative;
+    width: 80%;
+    margin: 0 10%;
+}
+section.main-content {
+    width: 80%;
+    margin: 0 10%;
+}
+.before-exc-blocks {
+    margin: 10px auto;
+}
+
+.exc-blocks figure {
+    width: 30%;
+}
+footer {
+    position: static;
+}
+ul.footer-nav {
+    padding: 1%;
+}
+}
 
 
 
