@@ -100,7 +100,9 @@ section.main-content img {
     margin: 3%;
 }
 .exc-blocks {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     width: 94%;
     margin: 0;
     padding: 0 3%;
