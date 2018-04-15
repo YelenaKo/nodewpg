@@ -292,6 +292,7 @@ footer{
     position: relative;
     width: 80%;
     margin: 0 10%;
+    z-index: 99;
 }
 section.main-content {
     width: 80%;
